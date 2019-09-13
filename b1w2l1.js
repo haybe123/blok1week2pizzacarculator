@@ -1,2 +1,26 @@
-var haybepizza = prompt('hoeveel xxl pizzas wilt u?');
-var 
+var haybesmall = prompt('hoeveel small pizzas wilt u?');
+var haybemedium = prompt('hoeveel medium pizzas wilt u?');
+var haybelarge = prompt('hoeveel grote pizzas wilt u?');
+var costsmall;
+var costmedium;
+var costlarge;
+var costtotal;
+document.write(' small pizzas: ' + haybesmall);
+document.write(' medium pizzas: ' + haybemedium);
+document.write( ' large pizzas : ' + haybelarge);
+document.write("<br>");
+document.write('small pizzas price : ');
+costsmall=haybesmall*6;
+document.write(costsmall*6);
+document.write("<br>");
+document.write('medium pizzas price : ');
+costmedium=haybemedium* 9;
+document.write(costmedium*9);
+document.write("<br>");
+document.write(' large pizzas');
+costlarge=haybelarge*12;
+document.write(haybelarge*12);
+document.write("<br>");
+document.write('total price');
+document.write(costtotal=costsmall=costmedium=costlarge);
+
